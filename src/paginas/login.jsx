@@ -53,7 +53,7 @@ const Login= () => {
 
     <>
         <div className=" transition-all place-content-center flex flex-col items-center justify-center ">
-          <img className=" w-20"  src="./src/assets/img/Pets.png" alt="" />
+          <img className=" w-20"  src="/src/assets/img/Pets.png" alt="" />
           <h1 className=" text-2xl font-bold text-gray-700 mt-3">Bienvenido a Pets<span  className=" text-cyan-600">Life</span></h1>
           <h2 className=" text-2xl mt-2 text-cyan-800 font-semibold ">Iniciar Sesión</h2>
           <form onSubmit={handleSubmit} action="" className=" transition-all w-full md:w-1/3">
